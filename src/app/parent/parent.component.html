@@ -1,0 +1,5 @@
+<p>
+  {{greeting}} parent works!
+  <app-child [carotte]="greeting" (childSignal)="parentReceive($event)">
+  </app-child>
+</p>

@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { CommunicationModule } from './communication/communication.module';
+
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CommunicationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
